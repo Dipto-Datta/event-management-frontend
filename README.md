@@ -26,8 +26,10 @@ cd event-manager/frontend
 ### 2. Environment variable
 
 - create a .env.local file
-- paste all of the content from the .env-example
+- paste all of the content from the env-example.txt file
 
 ### 3. Docker Usage
 
-- docker-compose up --build
+- make sure 3000 port is open
+- docker-compose -f docker-compose.yml up
+
